@@ -1,0 +1,16 @@
+#location: [x, y, z, yaw, pitch]
+
+lobby:
+  spawn: [0.5, 64, 0.5, 0, 0]
+  
+arenas:
+  arena0:
+    name: "Arena 0"
+    creator: "Kepler_"
+    maxHeight: 128
+    spawn:
+      spectator: [0.5, 96, 0.5, 0, 90]
+      blue: [48.5, 64, 0.5, 90, 0]
+      red: [0.5, 64, -47.5, 0, 0]
+      green: [-47.5, 64, 0.5, -90, 0]
+      yellow: [0.5, 64, 48.5, 180, 0]

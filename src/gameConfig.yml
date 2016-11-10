@@ -1,0 +1,13 @@
+phases:
+  lobby:
+    duration: 40
+    playersToStart: 2
+    showTitleOnQueue: false
+  equipment:
+    duration: 30
+  battle:
+    duration: 1200
+    teamHealth: 100
+    clearInvOnDeath: true
+  end:
+    duration: 15

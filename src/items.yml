@@ -1,0 +1,126 @@
+equipment:
+  helmet:
+    Hard Helmet:
+      description: 
+      - Protection 2
+      data: '{ench:[{id:0,lvl:2}]}'
+    Pyro Cap:
+      description:
+      - Fire Protection 2
+      data: '{ench:[{id:1,lvl:2}]}'
+    Fletcher Hat:
+      description:
+      - Projectile
+      - Protection 2
+      data: '{ench:[{id:4,lvl:2}]}'
+  chestplate:
+    Abs of Steel:
+      description:
+      - Protection 2
+      data: '{ench:[{id:0,lvl:2}]}'
+    Fletcher Suit:
+      description:
+      - Projectile
+      - Protection 2
+      data: '{ench:[{id:4,lvl:2}]}'
+    Prickly Chest:
+      description:
+      - Thorns 2
+      data: '{ench:[{id:7,lvl:2}]}'
+  leggings:
+    Tough Jeans:
+      description:
+      - Protection 2
+      data: '{ench:[{id:0,lvl:2}]}'
+    Fletcher Slacks:
+      description:
+      - Projectile
+      - Protection 2
+      data: '{ench:[{id:4,lvl:2}]}'
+    Pyro Pants:
+      description:
+      - Fire Protection 2
+      data: '{ench:[{id:1,lvl:2}]}'
+  boots:
+    Leather Boots:
+      description:
+      - Protection 2
+      data: '{ench:[{id:0,lvl:2}]}'
+    Wing Shoes:
+      description:
+      - Feather Falling 2
+      data: '{ench:[{id:2,lvl:2}]}'
+    Sprint Sneakers:
+      description:
+      - Increases Speed
+      data: '{ench:[],ATTR_INCREASED_SPEED}'
+  bow:
+    Power Bow:
+      description:
+      - Power 2
+      data: '{ench:[{id:48,lvl:2}]}'
+    Punch Bow:
+      description:
+      - Punch 1
+      data: '{ench:[{id:49,lvl:1}]}'
+    Flame Bow:
+      description:
+      - Flame 1
+      data: '{ench:[{id:50,lvl:1}]}'
+  sword:
+    The Slicing Dicer:
+      description:
+      - Sharpness 1
+      data: '{ench:[{id:16,lvl:1}]}'
+    Knockerbacker:
+      description:
+      - Knockback 1
+      data: '{ench:[{id:19,lvl:1}]}'
+    Flame Sword:
+      description:
+      - Fire Aspect 1
+      data: '{ench:[{id:20,lvl:1}]}'
+  pickaxe:
+    Speed Axe:
+      description:
+      - Efficiency 2
+      data: '{ench:[{id:32,lvl:2}],PICKAXE_CAN_DESTROY}'
+    Knockback Axe:
+      description:
+      - Knockback 1
+      data: '{ench:[{id:19,lvl:1}],PICKAXE_CAN_DESTROY}'
+    Reduced KB:
+      description:
+      - Decreased odds
+      - of getting hit
+      - off while working
+      data: '{ench:[],PICKAXE_CAN_DESTROY,ATTR_KNOCKBACK_REDUCTION}'
+
+battleItems:
+  stainedClay:
+    seconds: 2
+    amount: 1
+    max: 64
+    data: '{CAN_PLACE_ON}'
+  arrow:
+    seconds: 40
+    amount: 1
+    max: 8
+
+items:
+  helmet: 298
+  chestplate: 299
+  leggings: 300
+  boots: 301
+  sword: 272
+  bow: 261
+  pickaxe: 274
+  
+  stainedClay: 159
+  arrow: 262
+
+dataVars:
+  ATTR_KNOCKBACK_REDUCTION: 'AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"KB Resistance",Amount:.50,Operation:0,UUIDLeast:242548,UUIDMost:183161}]'
+  ATTR_INCREASED_SPEED: 'AttributeModifiers:[{AttributeName:"generic.movementSpeed",Name:"Speed",Amount:.20,Operation:2,UUIDLeast:778160,UUIDMost:123955}]'
+  PICKAXE_CAN_DESTROY: 'CanDestroy:["minecraft:hardened_clay","minecraft:stained_hardened_clay"]'
+  CAN_PLACE_ON: 'CanPlaceOn:["minecraft:wool","minecraft:stone_slab","minecraft:double_stone_slab","minecraft:stonebrick","minecraft:stone_brick_stairs","minecraft:hardened_clay","minecraft:stained_hardened_clay","minecraft:tnt"]'

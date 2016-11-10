@@ -1,0 +1,5 @@
+name: BattleIslands
+version: 0
+main: co.kepler.battleislands.BattleIslands
+author: Kepler_
+depend: [ProtocolLib]
